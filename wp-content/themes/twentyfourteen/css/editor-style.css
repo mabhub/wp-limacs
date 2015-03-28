@@ -277,12 +277,12 @@ hr {
  */
 
 a {
-	color: #24890d;
+	color: #dd9933;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #24890d;
+	color: #dd9933;
 }
 
 a:focus {
@@ -603,7 +603,7 @@ img {
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #24890d;
+	background: #dd9933;
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-total,
@@ -686,7 +686,7 @@ img {
 }
 
 .mejs-overlay:hover .mejs-overlay-button {
-	background-color: #24890d;
+	background-color: #dd9933;
 	color: #fff;
 }
 
