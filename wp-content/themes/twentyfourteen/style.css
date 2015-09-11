@@ -4320,3 +4320,13 @@ a.post-thumbnail:hover {
 		line-height: 36px;
 	}
 }
+
+
+.register-button {
+	margin: 20px 0;
+}
+
+.register-button .button {
+	display: inline-block;
+	margin: 0 5px 5px 0;
+}
