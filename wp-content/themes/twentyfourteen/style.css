@@ -1893,7 +1893,7 @@ a.post-thumbnail:hover {
  */
 
 .singular .site-content .hentry.has-post-thumbnail {
-	margin-top: -48px;
+	/*margin-top: -48px;*/
 }
 
 
@@ -3297,7 +3297,7 @@ a.post-thumbnail:hover {
 	}
 
 	.site-content .has-post-thumbnail .entry-header {
-		margin-top: -48px;
+		/*margin-top: -48px;*/
 	}
 }
 
@@ -3350,7 +3350,7 @@ a.post-thumbnail:hover {
 
 	.full-width .site-content .has-post-thumbnail .entry-header,
 	.full-width .site-content .hentry.has-post-thumbnail:first-child {
-		margin-top: -48px;
+		/*margin-top: -48px;*/
 	}
 
 	#secondary,
@@ -3654,7 +3654,7 @@ a.post-thumbnail:hover {
 	}
 
 	.site-content .has-post-thumbnail .entry-header {
-		margin-top: -48px;
+		/*margin-top: -48px;*/
 	}
 
 	.comment-list .trackback,
@@ -3683,7 +3683,7 @@ a.post-thumbnail:hover {
 	}
 
 	.full-width .site-content .hentry.has-post-thumbnail:first-child {
-		margin-top: -72px;
+		/*margin-top: -72px;*/
 	}
 
 	.featured-content {
@@ -4012,7 +4012,7 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 1040px) {
 	.site-content .has-post-thumbnail .entry-header {
-		margin-top: -48px;
+		/*margin-top: -48px;*/
 	}
 
 	.archive-header,
