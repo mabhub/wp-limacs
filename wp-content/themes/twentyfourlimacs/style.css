@@ -1,0 +1,285 @@
+/*
+Theme Name: Twenty Four Limacs
+Theme URI: http://wordpress.org/themes/twentyfourteen
+Author: Benjamin Marguin
+Author URI: http://benjamin.margu.in/
+Description: A Twenty Fouteen child theme made for Limacs Mtb club from Lectoure (Gers, France)
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Template: twentyfourteen
+Text Domain: twentyfourlimacs
+*/
+
+
+/**
+ * parent style.css override
+ */
+a ,
+a:active,
+a:hover,
+.site-navigation a:hover,
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a,
+.entry-title a:hover,
+.entry-meta a:hover,
+.cat-links a:hover,
+.entry-content .edit-link a:hover,
+.hentry .mejs-controls .mejs-button button:hover,
+.post-navigation a:hover,
+.image-navigation a:hover,
+.comment-author a:hover,
+.comment-list .pingback a:hover,
+.comment-list .trackback a:hover,
+.comment-metadata a:hover,
+.comment-reply-title small a:hover ,
+.widget a:hover,
+.widget-title a:hover,
+.widget_twentyfourteen_ephemera .entry-meta a:hover,
+.content-sidebar .widget a,
+.content-sidebar .widget a:hover,
+.content-sidebar .widget .widget-title a:hover,
+.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover,
+.site-info a:hover ,
+.featured-content a:hover {
+	color: #dd9933;
+}
+
+::selection,
+::-moz-selection,
+.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+.page-links a:hover {
+	background: #dd9933;
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button:active,
+.button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+.search-toggle,
+.search-toggle:hover,
+.search-toggle.active,
+.search-box,
+.hentry .mejs-overlay:hover .mejs-overlay-button,
+.widget button,
+.widget .button,
+.widget input[type="button"],
+.widget input[type="reset"],
+.widget input[type="submit"],
+.widget input[type="button"]:hover,
+.widget input[type="button"]:focus,
+.widget input[type="reset"]:hover,
+.widget input[type="reset"]:focus,
+.widget input[type="submit"]:hover,
+.widget input[type="submit"]:focus ,
+.widget input[type="button"]:active,
+.widget input[type="reset"]:active,
+.widget input[type="submit"]:active,
+.widget_calendar tbody a,
+.widget_calendar tbody a:hover,
+.content-sidebar .widget input[type="button"],
+.content-sidebar .widget input[type="reset"],
+.content-sidebar .widget input[type="submit"],
+.content-sidebar .widget input[type="button"]:hover,
+.content-sidebar .widget input[type="button"]:focus,
+.content-sidebar .widget input[type="reset"]:hover,
+.content-sidebar .widget input[type="reset"]:focus,
+.content-sidebar .widget input[type="submit"]:hover,
+.content-sidebar .widget input[type="submit"]:focus,
+.content-sidebar .widget input[type="button"]:active,
+.content-sidebar .widget input[type="reset"]:active,
+.content-sidebar .widget input[type="submit"]:active,
+.slider-control-paging a:hover:before,
+.slider-control-paging .slider-active:before,
+.slider-control-paging .slider-active:hover:before,
+.slider-direction-nav a:hover {
+	background-color: #dd9933;
+}
+
+.site {
+	margin: 0 auto;
+}
+
+.entry-meta .tag-links a:hover,
+.entry-meta .tag-links a:hover:before {
+	border-right-color: #dd9933;
+}
+
+.page-links a:hover {
+	border: 1px solid #dd9933;
+}
+
+.paging-navigation .page-numbers.current,
+.paging-navigation a:hover {
+	border-top: 5px solid #dd9933;
+}
+
+.singular .site-content .hentry.has-post-thumbnail {
+	margin-top: auto;
+}
+
+@media screen and (min-width: 594px) {
+	.site-content .has-post-thumbnail .entry-header {
+		margin-top: auto;
+	}
+}
+
+@media screen and (min-width: 673px) {
+	.full-width .site-content .has-post-thumbnail .entry-header,
+	.full-width .site-content .hentry.has-post-thumbnail:first-child {
+		margin-top: auto;
+	}
+}
+
+
+@media screen and (min-width: 783px) {
+	.primary-navigation ul ul,
+	.primary-navigation ul ul a:hover,
+	.primary-navigation ul ul li.focus > a {
+		background-color: #dd9933;
+	}
+
+    .primary-navigation li:hover > a,
+	.primary-navigation li.focus > a {
+		background-color: #dd9933;
+		color: #fff;
+	}
+}
+
+@media screen and (min-width: 846px) {
+	.site-content .has-post-thumbnail .entry-header,
+    .full-width .site-content .hentry.has-post-thumbnail:first-child {
+		margin-top: auto;
+	}
+}
+
+@media screen and (min-width: 1008px) {
+	.secondary-navigation ul ul,
+	.secondary-navigation li:hover > a,
+	.secondary-navigation li.focus > a,
+	.secondary-navigation ul ul a:hover,
+	.secondary-navigation ul ul li.focus > a {
+		background-color: #dd9933;
+	}
+}
+
+@media screen and (min-width: 1040px) {
+	.site-content .has-post-thumbnail .entry-header {
+		margin-top: auto;
+	}
+}
+
+
+/**
+ * Register form button
+ */
+
+.register-button {
+	margin: 20px 0;
+}
+
+.register-button .button {
+	display: inline-block;
+	margin: 0 5px 5px 0;
+}
+
+
+/**
+ * Event Organiser
+ */
+
+.eo-events-shortcode {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.eo-event-past .event-link {
+    position: relative;
+
+    display: block;
+
+    padding: .5em;
+
+    text-decoration: none;
+
+    color: inherit;
+    border: 1px solid rgba(200, 200, 200, .25);
+    border-right-width: .5em;
+
+	transition: background-color 300ms ease;
+}
+
+.eo-event-past .event-link:hover {
+	background-color: rgba(200, 200, 200, .1);
+}
+
+.eo-event-past.eo-event-tag-photos .event-link:after {
+    font-size: .8em;
+    font-style: italic;
+
+    position: absolute;
+    right: .25em;
+    bottom: 0;
+
+    display: block;
+
+    content: 'Photos';
+
+    color: #dd9933;
+}
+
+.eo-event-past + .eo-event-past {
+    margin-top: .5em;
+}
+
+.eo-event-past .event-title {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #dd9933;
+}
+
+.eo-event-past .event-date {
+    display: block;
+}
+
+.eo-event-past .event-date::first-letter {
+    text-transform: uppercase;
+}
+
+.eo-event-past .event-date,
+.eo-event-past .event-cats,
+.eo-event-past .event-tags {
+    font-style: italic;
+}
+
+.eo-event-past .event-cats a,
+.eo-event-past .event-tags a {
+    text-decoration: none;
+}
+
+.eo-event-cat-galerie {
+    /*background-color: #eee;*/
+}
