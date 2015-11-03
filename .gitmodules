@@ -2,3 +2,6 @@
 	path = wp-cms
 	url = https://github.com/wordpress/wordpress
 
+[submodule "wp-content/themes/twentyfourlimacs"]
+	path = wp-content/themes/twentyfourlimacs
+	url = git@github.com:mabhub/twentyfourlimacs.git
