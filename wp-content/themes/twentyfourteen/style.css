@@ -4330,3 +4330,82 @@ a.post-thumbnail:hover {
 	display: inline-block;
 	margin: 0 5px 5px 0;
 }
+
+
+.eo-events-shortcode {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.eo-event-past .event-link {
+    position: relative;
+
+    display: block;
+
+    padding: .5em;
+
+    text-decoration: none;
+
+    color: inherit;
+    border: 1px solid rgba(200, 200, 200, .25);
+    border-right-width: .5em;
+
+	transition: background-color 300ms ease;
+}
+
+.eo-event-past .event-link:hover {
+	background-color: rgba(200, 200, 200, .1);
+}
+
+.eo-event-past.eo-event-tag-photos .event-link:after {
+    font-size: .8em;
+    font-style: italic;
+
+    position: absolute;
+    right: .25em;
+    bottom: 0;
+
+    display: block;
+
+    content: 'Photos';
+
+    color: #dd9933;
+}
+
+.eo-event-past + .eo-event-past {
+    margin-top: .5em;
+}
+
+.eo-event-past .event-title {
+    font-size: 1.2em;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #dd9933;
+}
+
+.eo-event-past .event-date {
+    display: block;
+}
+
+.eo-event-past .event-date::first-letter {
+    text-transform: uppercase;
+}
+
+.eo-event-past .event-date,
+.eo-event-past .event-cats,
+.eo-event-past .event-tags {
+    font-style: italic;
+}
+
+.eo-event-past .event-cats a,
+.eo-event-past .event-tags a {
+    text-decoration: none;
+}
+
+.eo-event-cat-galerie {
+    /*background-color: #eee;*/
+}
