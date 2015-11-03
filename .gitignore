@@ -4,6 +4,7 @@
 #Contenus non versionnés
 /wp-content/uploads/
 /wp-content/plugins/
+/wp-content/ai1wm-backups/
 
 #Configuration
 /wp-config.php
